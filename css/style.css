@@ -1,0 +1,63 @@
+body {
+    background: #FFFDEE;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.test {
+    width: 800px;
+    margin: 100px auto 0;
+}
+p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+ul {
+    padding-bottom: 30px;
+}
+ul span {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.modal {
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #000;
+    color: #fff;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.show {
+    display: block;
+}
+.close-modal {
+    position: relative;
+    display: inline-block;
+    /*background: #eee;*/
+    padding: 20px;
+    z-index: 1;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+}
+.result {
+	color: #fff;
+    padding: 30px;
+    font-size: 25px;
+    vertical-align: middle;
+}
